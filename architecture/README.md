@@ -1,82 +1,51 @@
 # AutoLedger AI System Architecture
 
-## High-Level Architecture
+## Architecture Diagram
 
-User
-│
-▼
-Web Portal
-│
-▼
-AI Processing Layer
-│
-├── Invoice OCR
-├── Receipt OCR
-├── Email Processing
-├── Voice Processing
-│
-▼
-Accounting Rules Engine
-│
-├── Transaction Classification
-├── Journal Entry Suggestions
-├── GL Mapping
-├── Financial Validation
-│
-▼
-ERP Integration Layer
-│
-├── ERPNext
-├── QuickBooks
-├── Xero
-├── Sage
-└── Custom ERP Systems
-│
-▼
-Reporting & Analytics Layer
-│
-├── Financial Reports
-├── Dashboards
-├── KPI Monitoring
-└── Audit Trail
+![AutoLedger Architecture](System%20Architecture.png)
 
----
+## Overview
 
-## Core Components
+AutoLedger is designed as a policy-constrained AI accounting operator capable of:
 
-### Web Portal
+- Reading
+- Understanding
+- Communicating
+- Approving
+- Executing
+- Reporting
 
-Primary user interface for accountants, business owners, and finance teams.
+while maintaining complete auditability and compliance.
+
+## Core Layers
+
+### User Interface Layer
+- Dashboard
+- Inbox
+- Reports
+- Workflows
+- Voice Operations
 
 ### AI Processing Layer
+- OCR
+- Document Intelligence
+- Email Processing
+- Voice Processing
 
-Responsible for extracting and understanding data from:
-
-- Invoices
-- Receipts
-- PDFs
-- Emails
-- Voice conversations
-
-### Accounting Rules Engine
-
-Applies accounting logic and business rules to generate structured financial transactions.
+### Accounting Engine
+- Coding Suggestions
+- Journal Entries
+- Validation Rules
+- Policy Enforcement
 
 ### ERP Integration Layer
+- ERPNext
+- QuickBooks
+- Xero
+- Sage
 
-Synchronizes accounting data with external ERP and accounting systems.
-
-### Reporting & Analytics
-
-Provides real-time visibility into financial performance and accounting operations.
-
----
-
-## Future Enhancements
-
-- AI Financial Assistant
-- Voice-Based Accounting
-- Automated Bank Reconciliation
-- Multi-Entity Accounting
-- Predictive Financial Insights
-- AI Audit Assistant
+### Reporting Layer
+- AP Aging
+- Cash Forecast
+- Invoice Cycle Time
+- Vendor Risk
