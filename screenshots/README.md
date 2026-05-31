@@ -2,28 +2,32 @@
 
 ## Dashboard
 
-![Dashboard](dashboard.png)
+![Dashboard](Dashboard.png)
 
 ## Inbox
 
-![Inbox](inbox.png)
+![Inbox](Inbox.png)
 
 ## Workflows
 
-![Workflows](workflows.png)
+![Workflows](Workflows.png)
 
 ## Vendors
 
-![Vendors](vendors.png)
+![Vendors](Vendors.png)
 
 ## Reports
 
-![Reports](reports.png)
+![Reports](Reports.png)
 
 ## Voice Operations
 
-![Voice](voice.png)
+![Voice](Voice.png)
 
 ## Settings
 
-![Settings](settings.png)
+![Settings](Settings.png)
+
+## Playbooks
+
+![Playbooks](Playbooks.png)
